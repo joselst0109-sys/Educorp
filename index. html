@@ -1,0 +1,57 @@
+            padding: 1.5rem 0 0.7rem 0;
+            background: var(--main-green);
+            color: var(--white);
+            margin-top: 2rem;
+        }
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Edu Corp</h1>
+        <p>Tu ecosistema digital para la gestión educativa: bancos, administración, asistencia, notas y ¡más!</p>
+    </header>
+    <section class="main-content">
+        <div class="platform-card">
+            <span class="platform-icon">🏦</span>
+            <span class="platform-badge">Edubank</span>
+            <div class="platform-title">Sistema Bancario Escolar</div>
+            <div class="platform-desc">
+                Plataforma diseñada para la gestión de pagos, cobranzas, cuentas y reportes bancarios de colegios y estudiantes. Sencillo, seguro y eficiente.
+            </div>
+        </div>
+        <div class="platform-card">
+            <span class="platform-icon">🗂️</span>
+            <span class="platform-badge">Eduadmin</span>
+            <div class="platform-title">Control de Pagos y Administrativo</div>
+            <div class="platform-desc">
+                Administra matrículas, mensualidades, otros pagos, control administrativo, reportes y seguimiento financiero de tu institución educativa.
+            </div>
+        </div>
+        <div class="platform-card">
+            <span class="platform-icon">📋</span>
+            <span class="platform-badge">Seduassis</span>
+            <div class="platform-title">Asistencia y Registro de Notas</div>
+            <div class="platform-desc">
+                Controla la asistencia de estudiantes y gestiona el registro de notas por docente y por curso. Informe detallado y exportable.
+            </div>
+        </div>
+        <div class="platform-card">
+            <span class="platform-icon">🤖</span>
+            <span class="platform-badge">Edusesion IA</span>
+            <div class="platform-title">Sesiones Inteligentes IA</div>
+            <div class="platform-desc">
+                Crea sesiones de clase, programaciones, materiales y actividades automáticamente con Inteligencia Artificial. Optimiza tu tiempo docente.
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Edu Corp | Innovando la educación digital
+    </footer>
+</body>
+</html>
